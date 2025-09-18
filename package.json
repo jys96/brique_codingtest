@@ -6,7 +6,8 @@
   "scripts": {
     "test1": "jest test/q1.test.js",
     "test2": "jest test/q2.test.js",
-    "test3": "jest test/q3.test.js"
+    "test3": "jest test/q3.test.js",
+    "test5": "jest test/q5.test.js"
   },
   "keywords": [],
   "author": "",
