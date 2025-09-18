@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test1": "jest test/q1.test.js",
-    "test2": "jest test/q2.test.js"
+    "test2": "jest test/q2.test.js",
+    "test3": "jest test/q3.test.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "jest": "^30.1.3"
   },
   "dependencies": {
+    "dateformat": "^4.5.1",
+    "mysql2": "^3.15.0",
     "node-fetch": "^2.7.0"
   }
 }
