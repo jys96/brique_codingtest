@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>기온/습도 그래프</title>
+  <style>
+    body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
+    #chart-container { width: 80%; max-width: 800px; }
+    #input-table { margin-top: 20px; border-collapse: collapse; }
+    #input-table th, #input-table td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    #input-table input { width: 60px; }
+    #random-btn { margin-top: 10px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h2>기온과 습도 그래프</h2>
+  <div id="chart-container">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <table id="input-table">
+    <thead>
+      <tr>
+        <th>월</th>
+        <th>기온 (°C)</th>
+        <th>습도 (%)</th>
+      </tr>
+    </thead>
+    <tbody id="data-inputs">
+      <!-- 자바스크립트로 내용 생성 -->
+    </tbody>
+  </table>
+
+  <button id="random-btn">Random</button>
+
+  <script src="./lib/chart.umd.js"></script>
+  <script src="q4.js"></script>
+</body>
+</html>
